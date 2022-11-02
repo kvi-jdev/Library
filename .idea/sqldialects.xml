@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/add/AddAuthorServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/add/AddPublisherServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/delete/DeleteAuthorServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/delete/DeletePublisherServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/read/ReadAuthorServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/read/ReadPublisherServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/util/DatabaseTables.java" dialect="GenericSQL" />
+  </component>
+</project>
