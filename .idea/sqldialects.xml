@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/add/AddAuthorServlet.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/add/AddPublisherServlet.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/delete/DeleteAuthorServlet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/delete/DeleteProductServlet.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/delete/DeletePublisherServlet.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/read/ReadAuthorServlet.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/by/korotkevich/servlets/read/ReadPublisherServlet.java" dialect="GenericSQL" />
