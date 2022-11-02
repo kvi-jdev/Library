@@ -13,21 +13,26 @@
   <body>
     <h1>Welcome to the product menu! </h1>
 
-    <form action="/AddProductServlet" method="post">
-      <input name="productName">
+    <form action="AddProductServlet" method="post">
+      Add new product<label>
+        <input name="productName">
+      </label>
       <input type="submit" value="Submit">
     </form>
     <br>
 
-    <form action="/DeleteAuthorServlet" method="post">
-      <input name="productName">
+    <form action="DeleteAuthorServlet" method="post">
+      Delete product <label>
+        <input name="productName">
+      </label>
       <input type="submit" value="Submit">
     </form>
     <br>
 
-    <form action="/ReadAuthorServlet" method="post">
-      <input name="productName"> <input name="authorName"> <input name="publisherName">
-      <input type="submit" value="Submit">
+    <form action="ReadAuthorServlet" method="post">
+      Enter product name<input name="productName"> Enter author name<input name="authorName">
+      Enter publisher name<input name="publisherName">
+      <input type="submit" value="Sort products">
     </form>
     <br>
 

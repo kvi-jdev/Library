@@ -21,7 +21,15 @@ public class DatabaseTables {
                     "(\"ID_PRODUCT\" BIGINT auto_increment, " +
                     "\"PRODUCT_NAME\" CHARACTER VARYING(255) NOT NULL UNIQUE, " +
                     "\"PRODUCT_DATE\" CHARACTER VARYING(255) NOT NULL, " +
-                    "CONSTRAINT \"ID_PRODUCT\" PRIMARY KEY (\"ID_PRODUCT\"))");
+                    "\"ID_AUTHOR\" int, " +
+                    "\"ID_PUBLISHER\" int, " +
+                    "CONSTRAINT \"ID_PRODUCT\" PRIMARY KEY (\"ID_PRODUCT\"), " +
+                    "CONSTRAINT \"PRODUCT_AUTHOR_ID_AUTHOR_FK\" " +
+                    "FOREIGN KEY (\"ID_AUTHOR\") REFERENCES \"AUTHOR\" " +
+                    "(\"ID_AUTHOR\"), " +
+                    "CONSTRAINT \"PRODUCT_PUBLISHER_ID_PUBLISHER_FK\" " +
+                    "FOREIGN KEY (\"ID_PUBLISHER\") REFERENCES \"PUBLISHER\" " +
+                    "(\"ID_PUBLISHER\"))");
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
