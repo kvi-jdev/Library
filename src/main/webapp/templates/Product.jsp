@@ -1,4 +1,5 @@
-<%--
+<%@ page import="by.korotkevich.service.impl.AuthorServiceImpl" %>
+<%@ page import="by.korotkevich.entity.Author" %><%--
   Created by IntelliJ IDEA.
   User: Home
   Date: 03.11.2022
@@ -7,45 +8,40 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>Product menu</title>
-  </head>
-  <body>
-    <h1>Welcome to the product menu! </h1>
+</head>
+    <body>
+        <h1>Welcome to the product menu! </h1>
 
-    <form action="AddProductServlet" method="post">
-      Add new product<label>
-        <input name="productName">
-      </label>
-      <input type="submit" value="Submit">
-    </form>
-    <br>
+        <form action="AddProductServlet" method="post">
+            Add new product<label>
+            <input name="productName">
+        </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
 
-    <form action="DeleteAuthorServlet" method="post">
-      Delete product <label>
-        <input name="productName">
-      </label>
-      <input type="submit" value="Submit">
-    </form>
-    <br>
+        <form action="DeleteProductServlet" method="post">
+            Delete product <label>
+            <input name="productName">
+        </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
 
-    <form action="ReadAuthorServlet" method="post">
-      Enter product name<label>
-      <input name="productName">
-    </label> Enter author name<label>
-      <input name="authorName">
-    </label>
-      Enter publisher name<label>
-      <input name="publisherName">
-    </label>
-      <input type="submit" value="Sort products">
-    </form>
-    <br>
+        <form action="ReadProductServlet" method="post">
+
+            Author: <select name="authorName">
+                        <%%>
+                    </select>
+        </form>
+        <br>
 
 
-    <form action="NameServlet" method="post">
-      <input type="submit" value="Back to main menu">
-    </form>
+        <form action="NameServlet" method="post">
+            <input type="submit" value="Back to main menu">
+        </form>
 
-  </body>
+    </body>
 </html>
