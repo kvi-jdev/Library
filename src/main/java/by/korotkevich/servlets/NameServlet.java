@@ -1,12 +1,10 @@
 package by.korotkevich.servlets;
 
 import by.korotkevich.util.DatabaseTables;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet(name = "NameServlet", value = "/NameServlet")
 public class NameServlet extends HttpServlet {
